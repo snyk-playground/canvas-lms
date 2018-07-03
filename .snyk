@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - tinymce-a11y-checker > instructure-icons > svg-to-jsx > xmlbuilder > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - '@instructure/ui-core > instructure-icons > svg-to-jsx > xmlbuilder > lodash':
+        patched: '2018-07-03T02:03:17.719Z'
+    - canvas-planner > @instructure/ui-core > instructure-icons > svg-to-jsx > xmlbuilder > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - canvas-planner > instructure-icons > svg-to-jsx > xmlbuilder > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - instructure-ui > jscodeshift > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - instructure-ui > jscodeshift > babel-core > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - instructure-icons > svg-to-jsx > xmlbuilder > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - tinymce-a11y-checker > instructure-ui > jscodeshift > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - tinymce-a11y-checker > instructure-ui > jscodeshift > babel-core > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - canvas-rce > instructure-icons > svg-to-jsx > xmlbuilder > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - canvas-rce > instructure-ui > jscodeshift > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
+    - canvas-rce > instructure-ui > jscodeshift > babel-core > lodash:
+        patched: '2018-07-03T02:03:17.719Z'
