@@ -50,7 +50,7 @@
     "grunt-connect-proxy": "0.2.0",
     "grunt-connect-rewrite": "0.2.1",
     "grunt-contrib-connect": "1.0.2",
-    "grunt-contrib-jasmine": "1.0.3",
+    "grunt-contrib-jasmine": "2.0.3",
     "grunt-contrib-jshint": "1.0.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-jsduck": "1.0.1",
