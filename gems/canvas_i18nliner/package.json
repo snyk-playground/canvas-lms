@@ -11,7 +11,8 @@
     "i18nliner": "0.2.0",
     "i18nliner-handlebars": "^0.2.2",
     "minimist": "^1.1.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "coffee-script": "^1.12.4",
@@ -19,6 +20,9 @@
   },
   "peerDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/jasmine"
-  }
+    "test": "./node_modules/.bin/jasmine",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
