@@ -10,7 +10,7 @@
     "@instructure/ui-core": "^4.7.0",
     "@instructure/ui-themeable": "^4.7.0",
     "@instructure/ui-themes": "^4.7.0",
-    "axios": "^0.16.0",
+    "axios": "^0.21.1",
     "backbone": "1.1.1",
     "brandable_css": "0.1.0",
     "canvas-planner": "1.0.16",
